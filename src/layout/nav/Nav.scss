@@ -1,0 +1,40 @@
+
+
+
+nav{
+    background-color: #FFD0D5;
+    padding: 32px 0;
+}
+
+
+.nav__items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    flex: 1;
+    display: flex;
+}
+
+
+.nav__links{
+    display: flex;
+    gap: 0 16px;
+    height: 100%;
+    align-items: center;
+}
+
+
+.nav__link{
+    text-decoration: none;
+    color: #171313;
+    font-family: var(--main-font);
+    font-size: 16.594px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.56px; /* 111.849% */
+    letter-spacing: -0.72px;
+}

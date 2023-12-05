@@ -1,0 +1,109 @@
+.design-updates{
+    padding: 80px 0px 0 0px;
+    background-color: #171313;    
+}
+
+
+.design-updates-div{
+    display: flex;
+    flex-direction: column;
+    gap: 184px 0;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+
+.design__updates-content{
+    position: relative;
+    >h2{
+        color: #FFF;
+        max-width: 764px;
+        font-family: var(--main-font);
+        font-size: 60.75px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 69.12px; /* 113.778% */
+        letter-spacing: -3.84px;
+    }
+    >p{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #FFF;
+        max-width: 764px;
+        font-family: var(--main-font);
+        font-size: 60.75px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 69.12px; /* 113.778% */
+        letter-spacing: -3.84px;
+
+    }
+}
+
+
+.design__updates-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 141px 0;
+    >.input{
+        display: flex;
+        max-width: 716px;
+        width: 100%;
+        position: relative;
+        >input{
+            padding: 11px 0;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+            outline: none;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 22.688px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.96px;
+            &::placeholder{
+                color: #FFF;
+                font-family: Inter;
+                font-size: 22.688px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -0.96px;
+            }
+        }
+        >button{
+            color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 13.563px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 14.43px; /* 106.396% */
+            letter-spacing: -0.56px;
+            text-transform: uppercase;
+            border: none;
+            background-color: transparent;
+            position: absolute;
+            right: 0;
+            top: 40%;
+        }
+    }
+    >p{
+        max-width: 716px;
+        color: #837E7E;
+        font-family: Inter;
+        font-size: 13.234px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18.06px; /* 136.463% */
+        letter-spacing: -0.56px;
+    }
+}
+
+

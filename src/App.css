@@ -1,0 +1,13 @@
+.double-component{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.tools{
+  width: 48%;
+}
+
+.jobs{
+  width: 48%;
+}

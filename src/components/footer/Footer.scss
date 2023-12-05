@@ -1,0 +1,124 @@
+footer{
+    padding: 60px 0 32px 0;
+    background-color: #FECFD4;
+}
+
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    gap: 256px 0;
+}
+
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.uls{
+    display: flex;
+    gap: 0 120px;
+    >ul{
+        display: flex;
+        flex-direction: column;
+        gap: 16px 0;
+        >li{
+            list-style: none;
+            >a{
+                text-decoration: none;
+                color: #171313;
+                font-family: var(--main-font);
+                font-size: 23.063px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24.74px; /* 107.274% */
+                letter-spacing: -0.96px;
+            }
+        }
+    }
+}
+
+.logo{
+    max-width: 222px;
+    align-self: flex-start;
+}
+
+
+.times{
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0;
+    >div{
+        display: flex;
+        justify-content: space-between;
+        gap: 0 5px;
+        >p{
+            color: #171313;
+            font-family: var(--main-font);
+            font-size: 21.75px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24.74px; /* 113.747% */
+            letter-spacing: -0.96px;
+            >sup{
+                color: #171313;
+                font-family: var(--main-font);
+                font-size: 13.672px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18.06px; /* 132.096% */
+                letter-spacing: -0.96px;
+            }
+        }
+        >span{
+            color: #171313;
+            text-align: right;
+            font-family: var(--main-font);
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24.74px; /* 103.083% */
+            letter-spacing: -0.96px;
+        }
+    }
+}
+
+
+.footer-bottom{
+    padding: 10px 0;
+    display: flex;
+    >ul{
+        display: flex;
+        flex: 1;
+        gap: 0 24px;
+        >li{
+            list-style: none;
+            >a{
+                text-decoration: none;
+                color: #171313;
+                font-family: var(--main-font);
+                font-size: 17.438px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px;                
+            }
+        }
+    }
+    >a{
+        text-decoration: none;
+        color: #171313;
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 13.453px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 14.43px; /* 107.261% */
+        letter-spacing: -0.56px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        >span{
+            margin-left: 11px;
+        }
+    }
+}
