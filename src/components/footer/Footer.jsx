@@ -79,15 +79,15 @@ const Footer = () => {
                     <div className="times">
                         <div>
                             <p>SE<sup>GBG . STO</sup></p>
-                            <span>{timezones.tokyo}</span>
+                            <span>{timezones.tokyo.padStart(11, 0)}</span>
                         </div>
                         <div>
                             <p>UK<sup>LDN</sup></p>
-                            <span>{timezones.london}</span>
+                            <span>{timezones.london.padStart(11, 0)}</span>
                         </div>
                         <div>
                             <p>US<sup>NY . BOS</sup></p>
-                            <span>{timezones.newYork}</span>
+                            <span>{timezones.newYork.padStart(11, 0)}</span>
                         </div>
                     </div>
                 </div>
